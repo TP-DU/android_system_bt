@@ -414,7 +414,6 @@ int le_test_mode(uint16_t opcode, uint8_t* buf, uint8_t len)
     return btif_le_test_mode(opcode, buf, len);
 }
 #endif
-
 int config_hci_snoop_log(uint8_t enable)
 {
     LOG_INFO("config_hci_snoop_log");
